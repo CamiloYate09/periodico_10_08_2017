@@ -1,0 +1,160 @@
+*{
+
+/*con esta propiedad::: el ancho y el alto se va a mantener fijo*/
+
+	box-sizing: border-box;
+}
+
+html{
+
+/*este tipo de fuente de google fonts nos permite establecer este tipo de letra en toda la pagina*/
+	font-family: 'Judson', serif;
+}
+
+
+.lateral{
+
+background-color: #E4E2E8 ;
+bottom: 0;
+left: 0;
+padding: 1em;
+position: fixed ;
+top: 0;
+width: 350px;
+
+
+}
+
+/*perfil	*/
+
+.perfil__circulo{
+
+
+border-radius: 50%;
+height: 210px;
+overflow: hidden;
+margin: 100;
+width: 210px;
+
+
+}
+.perfil_foto{
+
+width: 180%;
+
+}
+
+.perfil_nombres{
+
+
+	color: #187AFF;
+	font-size: 40px;
+	margin-left: .1em;
+	width: 50px;
+}
+
+.perfil_nombres, .perfil__circulo{
+
+display: inline-block;
+vertical-align: middle;
+
+}
+
+/*imformacion*/
+.informacion {
+
+color: #0F6A62;
+position: absolute;
+bottom: 1em;
+
+}
+.informacion_titulo{
+
+font-size: 18px;
+
+
+}
+
+
+/*habilidad*/
+.habilidades{
+
+padding: 0;
+
+}
+
+.habilidad{
+
+
+	background-color: #0F6A62;
+	color:  #fff;
+	
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: .5em;}
+
+	.habilidad__proyecto{
+
+		background-color: #29597C;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: .5em;
+
+
+	}
+
+
+
+/*parte de proyectos o secciones del periodico */
+
+.proyectos{
+
+
+	margin-left: 350px;
+	padding: 1em;
+
+	display: table;
+}
+
+.proyecto{
+
+	display: table-cell;
+	padding: 1em;
+
+
+	width: 50%;
+
+}
+
+.proyecto_imagen{
+
+
+	width: 100%;
+
+}
+
+.proyecto_titulo{
+
+color: #29597C;
+font-size: 18px;
+
+}
+
+.proyecto_descripcion{
+
+
+	color: #29597C;
+}
+.marco{
+
+
+border-style: solid;
+border-bottom-width: 15px;
+width: 100%;
+border-color: #29597C;
+
+}
+
